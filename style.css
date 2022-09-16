@@ -1,0 +1,179 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* navbar */
+.nav-bar{
+    background-color: #f1f1f1;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.nav-left{
+    margin-top: 10px;
+    display:flex;
+    justify-content: left;
+}
+.nav-right{
+    display:flex;
+    justify-content: right;
+}
+.nav-left a{
+    text-decoration: none;
+    font-style: italic;
+    color: #00acee;
+    font-size: large;
+    font-weight: bold;
+}
+.nav-right ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 45px;
+}
+
+.nav-right li{
+    display: inline;
+    padding-left: 13px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.nav-left{
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 45%;
+}
+.nav-right{
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+}
+.btn-twitter{
+    background-image: url(/Assets/Twitter.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 16px;
+    background-color: #00acee;
+    padding: 12px;
+    padding-left: 35px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+}
+.btn-twitter:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #00acee;
+    background-image: url(/Assets/Twitter\ \(Blue\).svg);
+}
+
+
+/* Section 1 */
+
+.section-1 {
+    display: grid;
+    grid-template-rows: 350px 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    background-color: #f1f1f1;
+}
+.section-1 div:nth-child(2){
+    grid-row: 1/3;
+    grid-column: 2/3;
+    position: relative;;
+}
+.section-1 .hero-img img{
+    position: absolute;
+    height: calc(100% - 1rem);
+    padding-left: 8.5rem;
+    padding-top: 1rem;
+}
+
+.section-1 .content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    font-size: 20px;
+}
+.section-1 .content-1 h1{
+    font-size: 50px;
+}
+.section-1 .content-1 p,h1{
+    width: 70%;
+}
+
+.section-1 .content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    font-size: 20px;
+    height: 200px
+}
+.section-1 .content-2 .img-stack{
+    height: 150px;
+}
+.section-1 .content-2 div{
+    height: 100%;
+    width: 70%;
+}
+
+.section-1 .content-2 a{
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 1rem;
+    color: darkslateblue;
+    font-weight: bold;
+}
+.img-stack{
+    position: relative;
+}
+.img-stack img{
+    height: 2rem;
+}
+.img-stack img{
+    position: absolute;
+    right: 1rem;
+}
+.img-stack :nth-child(9){
+    left: 160px;
+}
+.img-stack :nth-child(8){
+    left: 140px;
+}
+.img-stack :nth-child(7){
+    left: 120px;
+}
+.img-stack :nth-child(6){
+    left: 100px;
+}
+.img-stack :nth-child(5){
+    left: 80px;
+}
+.img-stack :nth-child(4){
+    left: 60px;
+}
+.img-stack :nth-child(3){
+    left: 40px;
+}
+.img-stack :nth-child(2){
+    left: 20px;
+}
+.img-stack :nth-child(1){
+    left: 0px;
+}
+
+.hilighted-text {
+    color: rgba(16, 7, 138, 0.7);
+    font-weight: bold;
+}
