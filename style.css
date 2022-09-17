@@ -93,8 +93,8 @@ body{
 }
 .section-1 .hero-img img{
     position: absolute;
-    height: calc(100% - 1rem);
-    padding-left: 8.5rem;
+    height: calc(100% - 3rem);
+    padding-left: 9rem;
     padding-top: 1rem;
 }
 
@@ -215,9 +215,193 @@ body{
     margin-left: 25%;
 }
 .section-2 div:nth-child(3){
-    margin-right: 33%;
+    margin-right: 34%;
 }
 .section-2 div:nth-child(5){
-    margin-right: 33%;
+    margin-right: 34%;
 }
 
+
+/* Section 3 */
+.section-3{
+    background-color: rgb(202, 243, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.section-3 h1{
+    display: block;
+    text-align: center;
+    padding-left: 18rem;
+    padding-bottom: 20px;
+}
+.posts{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+.posts div:nth-child(1){
+    width: 300px;
+    height: 165px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.posts div:nth-child(2){
+    width: 300px;
+    height: 240px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.posts div:nth-child(3){
+    width: 300px;
+    height: 165px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.heart{
+    height: 20px;
+    position: absolute;
+}
+
+.go-right{
+    float: right;
+}
+
+.like-count{
+    padding-left: 25px;
+}
+.avatar-2{
+    position: absolute;
+    top: 1rem
+}
+.posts div{
+    position: relative;
+}
+.avatar-text{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.tw-icon-top-right{
+    position: absolute;
+    height: 20px;
+    right: 30px;
+    top: 25px;
+}
+
+
+/* Section 4 */
+
+.section-4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-4 h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-left: 16%;
+}
+.section-4 p{
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.section-4 .card{
+    border: 2px solid burlywood;
+    border-radius: 5px;
+}
+.card{
+    margin-left: 37%;
+    text-align: start;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 251, 243);
+    height: 300px;
+}
+.card div:nth-child(1){
+    padding-top: 20px;
+    margin-right: 65%;
+}
+.card h3{
+    padding: 0;
+    margin: 0;
+}
+.monthly-price{
+    font-size: 45px;
+}
+.card div:nth-child(2) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid rgb(192, 188, 188);
+    border-bottom: 1px solid rgb(192, 188, 188);
+}
+.card div:nth-child(2) img{
+    position: absolute;
+    height: 20px;
+}
+.tick-text{
+    padding-left: 30px;
+}
+
+.card div:nth-child(3){
+    padding-top: 15px;
+}
+.card div:nth-child(3) button{
+    width: 420px;
+    background-position: 120px;
+}
+
+.footer{
+    background-color: rgb(202, 243, 240);
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.footer div:nth-child(1){
+    flex: 4;
+    padding-left: 300px;
+}
+.footer div:nth-child(2){
+    flex: 1;
+    text-align: center;
+}
+.footer div:nth-child(3){
+    flex: 2;
+}
+
+.footer-img{
+    position: absolute;
+    height: 15px;
+    bottom: 1px;
+    left: 40px;
+}
+.footer div:nth-child(2){
+    position: relative;
+}
+.footer-text{
+    padding-left: 30px;
+}
+
+.footer div:nth-child(1){
+    font-weight: bold;
+    font-style: italic;
+    color: #00acee;
+    font-size: large;
+}
