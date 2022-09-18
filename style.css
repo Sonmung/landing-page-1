@@ -58,7 +58,7 @@ body{
     flex: 50%;
 }
 .btn-twitter{
-    background-image: url(/Assets/Twitter.svg);
+    background-image: url(Assets/Twitter.svg);
     background-repeat: no-repeat;
     background-position: 10px;
     background-size: 16px;
@@ -73,7 +73,7 @@ body{
     cursor: pointer;
     background-color: white;
     color: #00acee;
-    background-image: url(/Assets/Twitter\ \(Blue\).svg);
+    background-image: url(Assets/Twitter\ \(Blue\).svg);
 }
 
 
@@ -367,6 +367,8 @@ body{
     width: 420px;
     background-position: 120px;
 }
+
+/* Footer */
 
 .footer{
     background-color: rgb(202, 243, 240);
